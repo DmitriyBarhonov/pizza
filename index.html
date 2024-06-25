@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA CHEFF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="/reset.css" rel="stylesheet" />
+    <link href="/styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <div class="wow animate__animated animate__backInDown logo">
+                <img src="/img/logo.png" alt="Логотип" class="logo__image">
+                <div class="logo__text">PIZZA <br> CHEFF</div>
+            </div>
+            <button class="burger-menu" id="burger-menu">
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+            </button>
+            <nav class="wow animate__animated animate__backInRight nav">
+                <ul class="nav__menu">
+                    <li class="wow animate__animated animate__backInDown nav__item"><a href="#home"
+                            class="nav__link">Пиццы</a></li>
+                    <li class="wow animate__animated animate__backInDown nav__item"><a href="#about"
+                            class="nav__link">Напитки</a></li>
+                    <li class="wow animate__animated animate__backInDown nav__item"><a href="#contact"
+                            class="nav__link">Доставка и оплата</a></li>
+                    <li class="wow animate__animated animate__backInDown nav__item"><a href="#contact"
+                            class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="product-description">
+            <div class="wow animate__animated animate__bounceIn product-description__text">
+                <h1 class="product-description__title"><span>Самая вкусная пицца в мире</span> <br />
+                    только в пицца Cheff
+                </h1>
+                <div class="wow animate__animated animate__bounceIn product-description__features">
+                    <div class="wow animate__animated animate__bounceIn feature">
+                        <div class="feature__icon"><img src="img/icon/hop.png" alt="Лучшее тесто"></div>
+                        <div class="feature__content">
+                            <div class="feature__title">ЛУЧШЕЕ ТЕСТО</div>
+                            <div class="feature__description">Мы создаем тесто только из отборной итальяской муки
+                                наивысшего качества</div>
+                        </div>
+                    </div>
+
+                    <div class="wow animate__animated animate__bounceIn feature">
+                        <div class="feature__icon"><img src="img/icon/kitchen-pack.png" alt="Лучшие повара"></div>
+                        <div class="feature__content">
+                            <div class="feature__title">ЛУЧШИЕ ПОВАРА</div>
+                            <div class="feature__description">Пиццы готовят самые профессиональные итальяские повара
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wow animate__animated animate__bounceIn feature">
+                        <div class="feature__icon"><img src="img/icon/seo-and-web.png" alt="Гарантия качества"></div>
+                        <div class="feature__content">
+                            <div class="feature__title">ГАРАНТИЯ КАЧЕСТВА</div>
+                            <div class="feature__description">Наша пиццерия получила множество наград и признаний по
+                                всему миру</div>
+                        </div>
+                    </div>
+
+                    <div class="wow animate__animated animate__bounceIn feature">
+                        <div class="feature__icon"><img src="img/icon/holidays.png" alt="Отборные рецепты"></div>
+                        <div class="feature__content">
+                            <div class="feature__title">ОТБОРНЫЕ РЕЦЕПТЫ</div>
+                            <div class="feature__description">Мы используем рецепты от мировых лидеров в изготовлении
+                                пиццы</div>
+                        </div>
+                    </div>
+                    <div><button>Выбрать пиццу</button></div>
+                </div>
+
+            </div>
+            <div class="wow animate__animated animate__bounceIn product-description__image">
+                <img src="/img/main/pizza_big.png" alt="Пицца">
+            </div>
+        </section>
+
+        <section class="pizza-list">
+            <h2 class="pizza-list__title">Выберите свою любимую пиццу</h2>
+            <div class="pizza-list__wrapper">
+                <div class="wow animate__animated animate__bounceInUp pizza-item">
+                    <div class="pizza-item__image">
+                        <a href="/img/main/list/meat.png" data-lightbox="image-1">
+                            <img src="/img/main/list/meat.png" alt="Мясная Делюкс">
+                        </a>
+                        
+                    </div>
+                    <div class="pizza-item__title">Мясная Делюкс</div>
+                    <p class="pizza-item__description">Пепперони, лук, бекон, томатная паста, колбаски, перец, грибы,
+                        соус чили, ананасы</p>
+                    <button class="button--add">В корзину</button>
+                </div>
+
+                <div class="wow animate__animated animate__bounceInUp pizza-item">
+                    <div class="pizza-item__image">
+                        <a href="/img/main/list/sea.png" data-lightbox="image-2">
+                            <img src="/img/main/list/sea.png" alt="Морская Премиум">
+                        </a>
+
+                    </div>
+                    <div class="pizza-item__title">Морская Премиум</div>
+                    <p class="pizza-item__description">Перец, сыр, креветки, кальмары, мидии, лосось</p>
+                    <button class="button--add">В корзину</button>
+                </div>
+
+                <div class="wow animate__animated animate__bounceInUp pizza-item">
+                    <div class="pizza-item__image">
+                        <a href="/img/main/list/becon.png" data-lightbox="image-3">
+                            <img src="/img/main/list/becon.png" alt="Бекон и Сосиски">
+                        </a>
+                    </div>
+                    <div class="pizza-item__title">Бекон и Сосиски</div>
+                    <p class="pizza-item__description">Бекон, сыр, сосиски, ананас, томатная паста</p>
+                    <button class="button--add">В корзину</button>
+                </div>
+
+                <div class="wow animate__animated animate__bounceInUp pizza-item">
+                    <div class="pizza-item__image">
+                        <a href="/img/main/list/chikendelux.png" data-lightbox="image-4">
+                            <img src="/img/main/list/chikendelux.png" alt="Куриная Делюкс">
+                        </a>
+                    </div>
+                    <div class="pizza-item__title">Куриная Делюкс</div>
+                    <p class="pizza-item__description">Курица, ананас, сыр Пепперони, соус для пиццы, томатная паста</p>
+                    <button class="button--add">В корзину</button>
+                </div>
+
+                <div class="wow animate__animated animate__bounceInUp pizza-item">
+                    <div class="pizza-item__image">
+                        <a href="/img/main/list/barbekupremiym.png" data-lightbox="image-5">
+                            <img src="/img/main/list/barbekupremiym.png" alt="Барбекю Премиум">
+                        </a>
+                    </div>
+                    <div class="pizza-item__title">Барбекю Премиум</div>
+                    <p class="pizza-item__description">Свинина BBQ, соус Барбекю, сыр, курица, соус для пиццы, соус чили
+                    </p>
+                    <button class="button--add">В корзину</button>
+                </div>
+
+                <div class="wow animate__animated animate__bounceInUp pizza-item">
+                    <div class="pizza-item__image">
+                        <a href="/img/main/list/pepedubl.png" data-lightbox="image-6">
+                            <img src="/img/main/list/pepedubl.png" alt="Пепперони Дабл">
+                        </a>
+                    </div>
+                    <div class="pizza-item__title">Пепперони Дабл</div>
+                    <p class="pizza-item__description">Пепперони, сыр, колбаса 2 видов: обжаренная и вареная</p>
+                    <button class="button--add">В корзину</button>
+                </div>
+
+                <div class="wow animate__animated animate__bounceInUp pizza-item">
+                    <div class="pizza-item__image">
+                        <a href="/img/main/list/chiken.png" data-lightbox="image-7">
+                            <img src="/img/main/list/chiken.png" alt="Куриное трио">
+                        </a>
+                    </div>
+                    <div class="pizza-item__title">Куриное трио</div>
+                    <p class="pizza-item__description">Жареная курица, Тушеная курица, Куриные наггетсы, перец, сыр,
+                        грибы, соус для пиццы</p>
+                    <button class="button--add">В корзину</button>
+                </div>
+                <div class="wow animate__animated animate__bounceInUp pizza-item">
+                    <div class="pizza-item__image">
+                        <a href="/img/main/list/chees.png" data-lightbox="image-8">
+                            <img src="/img/main/list/chees.png" alt="Сырная">
+                        </a>
+                    </div>
+                    <div class="pizza-item__title">Сырная</div>
+                    <p class="pizza-item__description">Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный</p>
+                    <button class="button--add">В корзину</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="wow animate__animated animate__bounceInDown footer__text">
+                    <p class="footer__title"><span>Хватит думать!</span><br> Доставим заказ за 30 минут!</p>
+                    <p>Мы гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа. Если мы опоздаем
+                        даже на 1 минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы
+                        гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен и не остался голодный!</p>
+                </div>
+                <div class="wow animate__animated animate__bounceInDown order-form">
+                    <form class="order-form__form">
+                        <input placeholder="Ваше имя" type="text" id="name" name="name" class="order-form__input"
+                            required>
+                        <input placeholder="Адрес доставки" type="text" id="address" name="address"
+                            class="order-form__input" required>
+                        <input placeholder="Телефон в формате +79994567890" pattern="(\+)?[0-9]{4}[0-9]{3}[0-9]{4}" type="tel" id="phone" name="phone" class="order-form__input"
+                            required>
+                        <button type="submit" class="button--submit">Оформить заказ</button>
+                    </form>
+                </div>
+                <div class="wow animate__animated animate__bounceInDown footer__image">
+                    <img src="/img/footer/pizzzzza.png" alt="Пицца в подвале">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup__content">
+            <p class="popup__message">Спасибо за заказ!</p>
+            <button id="popup-close" class="popup__close">Закрыть</button>
+        </div>
+    </div>
+
+
+
+
+    
+      
+
+
+
+    <script src="/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+</body>
+
+</html>
